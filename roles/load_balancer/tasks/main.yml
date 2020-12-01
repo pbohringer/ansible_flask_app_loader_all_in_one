@@ -1,5 +1,3 @@
----
-
 - name: Install load balancer packages
   package:
     name: "{{ load_balancer_packages }}"
@@ -16,3 +14,6 @@
     name: haproxy
     state: started
     enabled: true
+
+
+
